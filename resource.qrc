@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>images/back_button.png</file>
+        <file>images/help_sign.png</file>
+    </qresource>
+</RCC>
