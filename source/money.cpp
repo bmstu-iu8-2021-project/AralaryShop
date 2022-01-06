@@ -4,8 +4,8 @@
 #include <QDebug>
 
 money::money(QWidget *parent) :
-        QMainWindow(parent),
-        ui(new Ui::money) {
+    QMainWindow(parent),
+    ui(new Ui::money) {
     ui->setupUi(this);
 }
 

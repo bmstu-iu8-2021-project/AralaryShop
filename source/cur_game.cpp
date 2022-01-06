@@ -131,10 +131,10 @@ void cur_game::on_pushButton_clicked() {
 
                 });
                 th.join();
-                emit lost_connection();
                 ui->person->clear();
                 on_checkBox_stateChanged(0);
                 close();
+                emit lost_connection();
             }
 
         } else {
